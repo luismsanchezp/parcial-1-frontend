@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: Fira Sans, sans-serif;
+}
+
+header p, header li, nav {
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem .5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: #e1e1e1;
+    font-size: small;
+}
+
+header li {
+    display: inline-block;
+    padding-left: 2rem;
+    padding-right: .5rem;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.user-pic {
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.user-options {
+    width: .5rem;
+}
+
+.uam-logo {
+    max-width: 5.4rem;
+    min-width: 5.4rem;
+    max-height: 7rem;
+    min-height: 7rem;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #d9d9d9;
+    font-size: small;
+}
+
+.footer-svg {
+    width: 2rem;
+}
+
+.footer-elem {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links a {
+    text-decoration: none;
+}
+
+footer .row {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-title {
+    color: #84aedc;
+    padding-bottom: 1rem;
+}
+
+.footer-title-2 {
+    color: #84aedc;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-text {
+    padding-left: .4rem;
+}
+
+.contact-ul-list {
+    padding-left: 2rem;
+}
+
+.contact-list {
+    list-style: disc;
+}
+
+.copyright {
+    padding-top: 6rem;
+}
+
+.copyright-text {
+    font-weight: bold;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #efe180;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.product-lineup {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding-left: 12rem;
+}
+
+.lineup-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.origami-title {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-top: 4rem;
+}
+
+#origami {
+    width: 4rem;
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+.lineup-list {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.whole-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+    width: 20rem;
+    height: 22rem;
+    margin-left: 1.6rem;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;;
+}
+
+.card-bottom {
+    display: flex;
+    flex-direction: row;
+    padding-top: .2rem;
+    justify-content: space-between;
+    background-color: #d9d9d9;
+    width: 20rem;
+    height: 4rem;
+    margin-left: 1.6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.card-img {
+    width: 14rem;
+    height: 20rem;
+    margin-top: 1rem;
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+.card-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #bd6f27;
+    width: 5rem;
+    height: 1.5rem;
+    border-radius: 25px;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-size: small;
+}
+
+.card-button-text {
+    color: white;
+    font-size: small;
+}
